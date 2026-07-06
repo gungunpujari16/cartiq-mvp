@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Aurora &mdash; Cart &amp; Checkout</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header>
+    <a href="index.html">🛍️ Aurora Store</a>
+    <a class="cart-link" href="cart.html">Cart <span class="cart-badge">0</span></a>
+  </header>
+  <main>
+    <h2>Your Cart</h2>
+    <div id="cart-lines"></div>
+    <div class="checkout-summary" id="summary"></div>
+  </main>
+
+  <script src="store.js"></script>
+  <script>
+    const linesEl = document.getElementById("cart-lines");
+    const summaryEl = document.getElementById("summary");
+    let checkoutStarted = false;
+
+    function render() {
+      const lines = cartLines();
+      if (lines.length === 0) {
+        linesEl.innerHTML = `<p style="color:#64748B">Your cart is empty. <a href="index.html">Continue shopping</a>.</p>`;
+        summaryEl.innerHTML = "";
+        return;
+      }
+      linesEl.innerHTML = lines
+        .map(
+          (l) => `
+        <div class="cart-line">
+          <span>${l.product.emoji} ${l.product.name} &times; ${l.qty}</span>
+          <span>
+            $${(l.product.price * l.qty).toFixed(2)}
+            <button class="btn btn-secondary" style="margin-left:10px;padding:4px 10px;font-size:0.78rem;" onclick="handleRemove(${l.id})">Remove</button>
+          </span>
+        </div>`
+        )
+        .join("");
+
+      summaryEl.innerHTML = `
+        <div class="step"><strong>Total: $${cartTotal().toFixed(2)}</strong></div>
+        <button class="btn" id="checkout-btn">Proceed to Checkout</button>
+      `;
+      document.getElementById("checkout-btn").addEventListener("click", startCheckout);
+    }
+
+    function handleRemove(id) {
+      removeFromCart(id);
+      render();
+    }
+
+    async function startCheckout() {
+      checkoutStarted = true;
+      await window.CartIQ.track("checkout_start");
+      summaryEl.innerHTML = `
+        <div class="step">✅ Shipping details confirmed</div>
+        <div class="step">✅ Payment method selected</div>
+        <div class="step"><strong>Total: $${cartTotal().toFixed(2)}</strong></div>
+        <button class="btn" id="place-order-btn">Place Order</button>
+      `;
+      await window.CartIQ.track("checkout_step", { step: "shipping" });
+      document.getElementById("place-order-btn").addEventListener("click", placeOrder);
+    }
+
+    async function placeOrder() {
+      await window.CartIQ.track("payment_attempt");
+      const orderValue = await completePurchase();
+      summaryEl.innerHTML = `<div class="step">🎉 <strong>Order placed!</strong> Total charged: $${orderValue.toFixed(2)}</div>
+        <a class="btn" href="index.html">Continue shopping</a>`;
+      linesEl.innerHTML = "";
+    }
+
+    render();
+  </script>
+
+  <!-- CartIQ snippet: single script tag, async, non-blocking (PRD Feature 1) -->
+  <script src="config.js"></script>
+  <script src="cartiq.js" async></script>
+  <script src="widget.js"></script>
+</body>
+</html>

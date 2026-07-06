@@ -1,0 +1,8 @@
+venv/
+__pycache__/
+*.pyc
+*.db
+.env
+demo_api_key.txt
+.pytest_cache/
+demo-store/config.js

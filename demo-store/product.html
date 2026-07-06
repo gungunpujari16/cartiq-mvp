@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Aurora &mdash; Product</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header>
+    <a href="index.html">🛍️ Aurora Store</a>
+    <a class="cart-link" href="cart.html">Cart <span class="cart-badge">0</span></a>
+  </header>
+  <main id="product-main">Loading&hellip;</main>
+
+  <script src="store.js"></script>
+  <script>
+    const id = Number(new URLSearchParams(location.search).get("id"));
+    const product = PRODUCTS.find((p) => p.id === id) || PRODUCTS[0];
+    window.CURRENT_PRODUCT_CATEGORY = product.category;
+
+    document.getElementById("product-main").innerHTML = `
+      <div style="display:flex; gap:32px; align-items:flex-start; flex-wrap:wrap;">
+        <div style="font-size:8rem; line-height:1;">${product.emoji}</div>
+        <div style="flex:1; min-width:220px;">
+          <p class="product-category">${product.category}</p>
+          <h2>${product.name}</h2>
+          <p class="product-price" style="font-size:1.4rem;">$${product.price}</p>
+          <p style="color:#64748B; max-width:420px;">
+            A carefully sourced ${product.category} pick from our demo catalog &mdash;
+            add it to your cart to see CartIQ score this session in real time.
+          </p>
+          <button class="btn" onclick="handleAdd()">Add to Cart</button>
+        </div>
+      </div>`;
+
+    function handleAdd() {
+      addToCart(product.id, 1);
+      const note = document.createElement("div");
+      note.className = "cartiq-discount-toast";
+      note.style.borderColor = "#16A34A";
+      note.textContent = `${product.name} added to cart.`;
+      document.body.appendChild(note);
+      setTimeout(() => note.remove(), 2500);
+    }
+  </script>
+
+  <!-- CartIQ snippet: single script tag, async, non-blocking (PRD Feature 1) -->
+  <script src="config.js"></script>
+  <script src="cartiq.js" async></script>
+  <script src="widget.js"></script>
+</body>
+</html>
