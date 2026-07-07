@@ -63,12 +63,13 @@ Sanity check: `curl http://127.0.0.1:8000/v1/health`
 
 ```bash
 cd demo-store
+cp config.example.js config.js   # gitignored -- paste your real API key in here, never commit it
 python -m http.server 5500
 ```
 
+Edit `config.js` and paste the key printed by `seed_demo_data.py` (or from `backend/demo_api_key.txt`).
 Open `http://localhost:5500`, accept the CartIQ consent banner, click into a product, add it to cart,
-check out. Watch the score badge (top-right) and any discount toast appear live. `config.js` already
-points at `http://127.0.0.1:8000` with the seeded demo key -- update it if your key changes.
+check out. Watch the score badge (top-right) and any discount toast appear live.
 
 ### 3. Dashboard
 
