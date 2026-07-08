@@ -58,7 +58,14 @@ key_file = Path(__file__).resolve().parent.parent / "backend" / "demo_api_key.tx
 if key_file.exists():
     default_key = key_file.read_text().strip()
 
-api_base = st.sidebar.text_input("API base URL", value=st.session_state.get("api_base", "http://127.0.0.1:8000"))
+# Streamlit Community Cloud: set API_BASE_URL in the app's Secrets to point
+# at the deployed backend instead of localhost. Falls back to local dev.
+try:
+    default_api_base = st.secrets.get("API_BASE_URL", "http://127.0.0.1:8000")
+except Exception:
+    default_api_base = "http://127.0.0.1:8000"
+
+api_base = st.sidebar.text_input("API base URL", value=st.session_state.get("api_base", default_api_base))
 api_key = st.sidebar.text_input("API key", value=st.session_state.get("api_key", default_key), type="password")
 st.session_state["api_base"], st.session_state["api_key"] = api_base, api_key
 
