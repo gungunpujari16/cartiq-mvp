@@ -15,17 +15,18 @@ from app.config import settings
 
 is_sqlite = settings.database_url.startswith("sqlite")
 connect_args = {"check_same_thread": False} if is_sqlite else {}
+
 # pool_pre_ping + pool_recycle: managed Postgres (Render/Neon free tiers)
 # silently drops idle connections after a short timeout. Without these,
-# SQLAlchemy hands out stale connections that fail mid-request and the pool
-# exhausts under sustained traffic (observed as "QueuePool limit ... reached"
-# after ~270 sequential requests when seeding the deployed demo data).
-engine = create_engine(
-    settings.database_url,
-    connect_args=connect_args,
-    pool_pre_ping=True,
-    pool_recycle=280,
-)
+# SQLAlchemy hands out stale connections that fail mid-request.
+# pool_size/max_overflow: SQLite's default pool class doesn't accept these
+# kwargs at all, so only pass them for Postgres -- also keep the footprint
+# small there since free-tier plans cap total concurrent connections low.
+engine_kwargs = {"pool_pre_ping": True}
+if not is_sqlite:
+    engine_kwargs.update(pool_recycle=280, pool_size=3, max_overflow=2)
+
+engine = create_engine(settings.database_url, connect_args=connect_args, **engine_kwargs)
 SessionLocal = sessionmaker(autocommit=False, autoflush=False, bind=engine)
 
 
