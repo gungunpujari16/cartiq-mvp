@@ -13,8 +13,19 @@ from sqlalchemy.orm import DeclarativeBase, sessionmaker
 
 from app.config import settings
 
-connect_args = {"check_same_thread": False} if settings.database_url.startswith("sqlite") else {}
-engine = create_engine(settings.database_url, connect_args=connect_args)
+is_sqlite = settings.database_url.startswith("sqlite")
+connect_args = {"check_same_thread": False} if is_sqlite else {}
+# pool_pre_ping + pool_recycle: managed Postgres (Render/Neon free tiers)
+# silently drops idle connections after a short timeout. Without these,
+# SQLAlchemy hands out stale connections that fail mid-request and the pool
+# exhausts under sustained traffic (observed as "QueuePool limit ... reached"
+# after ~270 sequential requests when seeding the deployed demo data).
+engine = create_engine(
+    settings.database_url,
+    connect_args=connect_args,
+    pool_pre_ping=True,
+    pool_recycle=280,
+)
 SessionLocal = sessionmaker(autocommit=False, autoflush=False, bind=engine)
 
 
