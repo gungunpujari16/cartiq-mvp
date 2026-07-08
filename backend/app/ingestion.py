@@ -57,6 +57,12 @@ def get_or_create_session(db: DbSession, brand_id: str, session_id: str, event: 
             abandonment_point="Product Page",
         )
         db.add(session)
+        # Flush now so the sessions row exists before any Event rows
+        # referencing it are added later in this same request -- without
+        # this, autoflush=False lets SQLAlchemy flush them out of FK order,
+        # which SQLite silently tolerates (no FK enforcement by default) but
+        # Postgres correctly rejects with a ForeignKeyViolation.
+        db.flush()
     return session
 
 
