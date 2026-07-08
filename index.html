@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Aurora &mdash; Demo Store (powered by CartIQ)</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header>
+    <a href="index.html">🛍️ Aurora Store</a>
+    <a class="cart-link" href="cart.html">Cart <span class="cart-badge">0</span></a>
+  </header>
+  <main>
+    <h2>Shop All Categories</h2>
+    <p style="color:#64748B">This is a demo storefront with the CartIQ snippet installed &mdash; browse, add to cart, and check out to see live scoring and discounts in action.</p>
+    <div class="product-grid" id="product-grid"></div>
+  </main>
+
+  <script>
+    const grid = document.getElementById("product-grid");
+  </script>
+  <script src="store.js"></script>
+  <script>
+    grid.innerHTML = PRODUCTS.map(
+      (p) => `
+      <a class="product-card" href="product.html?id=${p.id}">
+        <div class="product-emoji">${p.emoji}</div>
+        <div class="product-name">${p.name}</div>
+        <div class="product-category">${p.category}</div>
+        <div class="product-price">$${p.price}</div>
+      </a>`
+    ).join("");
+  </script>
+
+  <!-- CartIQ snippet: single script tag, async, non-blocking (PRD Feature 1) -->
+  <script src="config.js"></script>
+  <script src="cartiq.js" async></script>
+  <script src="widget.js"></script>
+</body>
+</html>
