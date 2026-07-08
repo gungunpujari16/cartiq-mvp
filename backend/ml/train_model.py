@@ -5,10 +5,12 @@ Algorithm: XGBoost Gradient Boosting Classifier -- per TRD S3.1, chosen for
 highest AUC on tabular event data, fast (<5ms) inference, and native handling
 of missing features common in partial sessions.
 
-Data: IPBL/ecommerce_cleaned.csv (the same 1,400-session dataset used by the
-Phase 0 analytics dashboard). See app/features.py's module docstring for
-exactly which of the TRD's 15 features this trains on vs. which are captured
-live only (scroll_depth_avg, exit_intent_count, payment_attempts).
+Data: ml/data/ecommerce_cleaned.csv -- a copy of the same 1,400-session dataset
+used by the Phase 0 analytics dashboard (IPBL/ecommerce_cleaned.csv), duplicated
+into this repo so the model can be trained on deploy without depending on a
+sibling folder that isn't part of this git repo. See app/features.py's module
+docstring for exactly which of the TRD's 15 features this trains on vs. which
+are captured live only (scroll_depth_avg, exit_intent_count, payment_attempts).
 
 Run:  python ml/train_model.py     (from the backend/ directory)
 """
@@ -30,7 +32,7 @@ from app.config import settings
 from app.features import build_feature_vector
 from ml.historical_data import iter_historical_sessions
 
-CSV_PATH = BACKEND_DIR.parent.parent / "IPBL" / "ecommerce_cleaned.csv"
+CSV_PATH = BACKEND_DIR / "ml" / "data" / "ecommerce_cleaned.csv"
 SCORE_THRESHOLDS = {"high": 70, "medium": 40, "low": 20}  # segment cut points, see PRD Feature 2
 DECISION_THRESHOLD = 0.40  # TRD S3.1: "Precision > 0.60 at threshold 0.40"
 

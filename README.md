@@ -22,7 +22,8 @@ Full design rationale: see the plan this was built from, or ask Claude Code to r
 
 ### Model quality (current training run)
 
-XGBoost purchase-probability classifier, trained on `IPBL/ecommerce_cleaned.csv`:
+XGBoost purchase-probability classifier, trained on `backend/ml/data/ecommerce_cleaned.csv`
+(a copy of the Phase 0 dataset, duplicated in so deploys don't depend on a sibling folder outside this repo):
 
 | Metric | Result | TRD S3.1 target |
 |---|---|---|
@@ -50,7 +51,7 @@ python -m venv venv
 venv\Scripts\pip install -r requirements.txt        # Windows
 # source venv/bin/activate && pip install -r requirements.txt   # Mac/Linux
 
-python ml\train_model.py          # trains model.json from IPBL/ecommerce_cleaned.csv
+python ml\train_model.py          # trains model.json from ml/data/ecommerce_cleaned.csv
 python ml\seed_demo_data.py       # creates a demo brand + API key, replays historical sessions
                                    # -> prints the API key, also saved to backend/demo_api_key.txt
 

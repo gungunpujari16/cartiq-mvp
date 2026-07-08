@@ -22,7 +22,7 @@ from app.db import SessionLocal, init_db
 from app.models import ApiKey, Brand, Score, ShopperSession
 from ml.historical_data import iter_historical_sessions
 
-CSV_PATH = BACKEND_DIR.parent.parent / "IPBL" / "ecommerce_cleaned.csv"
+CSV_PATH = BACKEND_DIR / "ml" / "data" / "ecommerce_cleaned.csv"
 DEMO_BRAND_NAME = "CartIQ Demo Store"
 KEY_FILE = BACKEND_DIR / "demo_api_key.txt"
 
