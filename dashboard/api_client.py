@@ -14,7 +14,9 @@ class CartIQClient:
         self.headers = {"X-CartIQ-Key": api_key}
 
     def _get(self, path: str, params: dict | None = None) -> dict:
-        resp = requests.get(f"{self.base_url}{path}", headers=self.headers, params=params, timeout=10)
+        # Free-tier hosting (Render) spins the backend down after inactivity;
+        # the first request after a cold start can take 20-30s to respond.
+        resp = requests.get(f"{self.base_url}{path}", headers=self.headers, params=params, timeout=45)
         resp.raise_for_status()
         return resp.json()
 
