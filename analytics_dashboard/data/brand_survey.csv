@@ -1,0 +1,221 @@
+brand_id,company_name,industry,region,gmv_tier,monthly_orders,team_size,company_size,platform,cart_abandonment_rate,checkout_pain_point,current_tool_used,current_tool_sophistication,pricing_preference,adoption_likelihood,willingness_to_pay_usd
+BRAND0001,Falcon Commerce Ltd,Sports,UK,$10K-50K/mo,100-500/mo,1-5,Small,Magento,63.0,Payment Failures,No,0,Fixed Subscription,7,329.0
+BRAND0002,Azure Outlet,Electronics,Egypt,$200K-1M/mo,"10,000+/mo",16-50,Medium,WooCommerce,50.1,Complex Forms,Yes,6,Fixed Subscription,3,1596.0
+BRAND0003,Azure Marketplace,Fashion,UAE,<$10K/mo,<100/mo,1-5,Small,Custom Built,69.8,Payment Failures,No,0,Fixed Subscription,7,239.0
+BRAND0004,Falcon Direct,Beauty,UAE,$50K-200K/mo,100-500/mo,1-5,Small,Shopify,63.1,Payment Failures,No,0,Fixed Subscription,6,705.0
+BRAND0005,Nile Collective,Home & Kitchen,Saudi Arabia,$10K-50K/mo,100-500/mo,1-5,Small,WooCommerce,61.6,Mobile UX,No,0,Revenue Share,7,412.0
+BRAND0006,Nova Outlet,Fashion,Egypt,<$10K/mo,<100/mo,1-5,Small,WooCommerce,51.9,Trust Issues,Yes,7,Fixed Subscription,3,190.0
+BRAND0007,Metro Commerce Ltd,Beauty,UK,$10K-50K/mo,100-500/mo,1-5,Small,BigCommerce,58.3,Mobile UX,No,0,Revenue Share,6,367.0
+BRAND0008,Oasis Outlet,Fashion,UAE,$50K-200K/mo,"2,000-10,000/mo",16-50,Medium,WooCommerce,55.3,Shipping Costs,No,0,Fixed Subscription,7,996.0
+BRAND0009,Nile & Sons,Fashion,India,$50K-200K/mo,"500-2,000/mo",16-50,Medium,WooCommerce,47.4,Shipping Costs,Yes,10,Fixed Subscription,3,657.0
+BRAND0010,Metro Retail Group,Beauty,Saudi Arabia,$200K-1M/mo,"2,000-10,000/mo",51-200,Large,Shopify,53.3,Payment Failures,No,0,Fixed Subscription,6,1389.0
+BRAND0011,Oasis & Sons,Beauty,UK,$50K-200K/mo,"2,000-10,000/mo",6-15,Small,BigCommerce,70.8,Payment Failures,No,0,Fixed Subscription,8,825.0
+BRAND0012,Desert Marketplace,Beauty,Egypt,$200K-1M/mo,"500-2,000/mo",6-15,Small,WooCommerce,69.2,Mobile UX,No,0,Fixed Subscription,6,832.0
+BRAND0013,Urban Direct,Home & Kitchen,Egypt,$10K-50K/mo,100-500/mo,1-5,Small,Shopify,53.2,Mobile UX,No,0,Fixed Subscription,6,418.0
+BRAND0014,Coastal Bazaar,Toys,Saudi Arabia,<$10K/mo,<100/mo,1-5,Small,Magento,61.6,Complex Forms,No,0,Fixed Subscription,7,289.0
+BRAND0015,Urban Direct,Beauty,Saudi Arabia,$200K-1M/mo,"10,000+/mo",16-50,Medium,Shopify,73.6,Complex Forms,No,0,Revenue Share,7,1064.0
+BRAND0016,Palm E-Store,Electronics,UAE,$10K-50K/mo,<100/mo,1-5,Small,Shopify,48.2,Trust Issues,Yes,5,Revenue Share,4,347.0
+BRAND0017,Summit Collective,Sports,UAE,$10K-50K/mo,100-500/mo,1-5,Small,BigCommerce,63.3,Mobile UX,No,0,Revenue Share,6,368.0
+BRAND0018,Gulf Bazaar,Electronics,Egypt,$1M-5M/mo,"10,000+/mo",51-200,Large,WooCommerce,66.2,Complex Forms,No,0,Revenue Share,7,1641.0
+BRAND0019,Nile Marketplace,Grocery,Egypt,$10K-50K/mo,100-500/mo,1-5,Small,Magento,73.3,Complex Forms,No,0,Fixed Subscription,8,572.0
+BRAND0020,Nile Collective,Fashion,UK,$10K-50K/mo,"500-2,000/mo",1-5,Small,Shopify,65.0,Mobile UX,No,0,Fixed Subscription,8,752.0
+BRAND0021,Metro Bazaar,Fashion,UK,$50K-200K/mo,100-500/mo,6-15,Small,BigCommerce,60.7,Payment Failures,No,0,Fixed Subscription,8,729.0
+BRAND0022,Falcon Retail Group,Toys,India,$50K-200K/mo,100-500/mo,6-15,Small,Shopify,76.9,Payment Failures,No,0,Fixed Subscription,7,897.0
+BRAND0023,Gulf Bazaar,Sports,Egypt,$10K-50K/mo,<100/mo,1-5,Small,Shopify,80.9,Shipping Costs,No,0,Fixed Subscription,9,479.0
+BRAND0024,Summit Retail Group,Home & Kitchen,UK,$200K-1M/mo,"500-2,000/mo",16-50,Medium,Custom Built,71.8,Mobile UX,No,0,Fixed Subscription,9,1410.0
+BRAND0025,Bloom Bazaar,Grocery,Egypt,$10K-50K/mo,100-500/mo,1-5,Small,BigCommerce,67.7,Payment Failures,No,0,Fixed Subscription,7,431.0
+BRAND0026,Bloom Marketplace,Fashion,UAE,$200K-1M/mo,"2,000-10,000/mo",6-15,Small,WooCommerce,39.2,Trust Issues,Yes,9,Fixed Subscription,4,1140.0
+BRAND0027,Desert Commerce Ltd,Fashion,Saudi Arabia,$1M-5M/mo,"2,000-10,000/mo",200+,Large,Shopify,39.0,Trust Issues,Yes,7,Revenue Share,5,1348.0
+BRAND0028,Summit Collective,Electronics,UAE,$50K-200K/mo,100-500/mo,16-50,Medium,BigCommerce,68.2,Trust Issues,No,0,Revenue Share,8,793.0
+BRAND0029,Summit Outlet,Beauty,UK,$50K-200K/mo,100-500/mo,16-50,Medium,WooCommerce,47.5,Shipping Costs,Yes,9,Fixed Subscription,3,822.0
+BRAND0030,Silk E-Store,Home & Kitchen,India,$10K-50K/mo,100-500/mo,6-15,Small,Magento,67.9,Trust Issues,Yes,4,Revenue Share,7,546.0
+BRAND0031,Golden Trading Co.,Home & Kitchen,UAE,>$5M/mo,"10,000+/mo",200+,Large,Magento,44.2,Trust Issues,Yes,10,Revenue Share,3,1621.0
+BRAND0032,Gulf Retail Group,Electronics,India,$10K-50K/mo,<100/mo,6-15,Small,Shopify,46.9,Trust Issues,Yes,3,Fixed Subscription,4,491.0
+BRAND0033,Oasis Commerce Ltd,Toys,India,$50K-200K/mo,100-500/mo,1-5,Small,Shopify,68.8,Trust Issues,Yes,3,Fixed Subscription,6,909.0
+BRAND0034,Desert & Sons,Home & Kitchen,Saudi Arabia,$200K-1M/mo,"10,000+/mo",16-50,Medium,Magento,56.0,Trust Issues,No,0,Fixed Subscription,8,1416.0
+BRAND0035,Coastal Direct,Beauty,UAE,$10K-50K/mo,<100/mo,6-15,Small,Shopify,51.4,Mobile UX,Yes,5,Revenue Share,3,495.0
+BRAND0036,Gulf & Sons,Beauty,India,$50K-200K/mo,"2,000-10,000/mo",1-5,Small,Shopify,69.0,Payment Failures,No,0,Revenue Share,9,677.0
+BRAND0037,Azure Retail Group,Grocery,Saudi Arabia,$10K-50K/mo,"500-2,000/mo",1-5,Small,Custom Built,83.0,Mobile UX,No,0,Fixed Subscription,9,499.0
+BRAND0038,Bloom Retail Group,Electronics,Egypt,$200K-1M/mo,"500-2,000/mo",16-50,Medium,WooCommerce,88.9,Mobile UX,No,0,Fixed Subscription,8,1379.0
+BRAND0039,Bloom Commerce Ltd,Electronics,Saudi Arabia,$200K-1M/mo,"10,000+/mo",51-200,Large,Magento,54.2,Complex Forms,Yes,6,Fixed Subscription,5,1488.0
+BRAND0040,Golden Outlet,Home & Kitchen,Egypt,$10K-50K/mo,<100/mo,1-5,Small,WooCommerce,65.5,Trust Issues,No,0,Fixed Subscription,5,561.0
+BRAND0041,Golden Collective,Fashion,India,<$10K/mo,<100/mo,1-5,Small,WooCommerce,71.3,Complex Forms,No,0,Fixed Subscription,8,229.0
+BRAND0042,Summit Bazaar,Fashion,India,<$10K/mo,<100/mo,1-5,Small,Shopify,74.1,Payment Failures,No,0,Revenue Share,8,194.0
+BRAND0043,Golden Outlet,Fashion,Egypt,$10K-50K/mo,100-500/mo,1-5,Small,Shopify,64.4,Complex Forms,No,0,Revenue Share,6,314.0
+BRAND0044,Metro Retail Group,Fashion,Saudi Arabia,$50K-200K/mo,"500-2,000/mo",6-15,Small,Shopify,79.9,Payment Failures,No,0,Revenue Share,8,743.0
+BRAND0045,Silk Marketplace,Sports,UAE,$1M-5M/mo,"10,000+/mo",200+,Large,Shopify,58.4,Complex Forms,Yes,2,Revenue Share,8,1797.0
+BRAND0046,Oasis Direct,Home & Kitchen,UAE,$50K-200K/mo,100-500/mo,1-5,Small,BigCommerce,71.0,Mobile UX,No,0,Revenue Share,7,579.0
+BRAND0047,Prime Bazaar,Grocery,India,$50K-200K/mo,100-500/mo,6-15,Small,Shopify,70.8,Complex Forms,No,0,Fixed Subscription,6,874.0
+BRAND0048,Azure Trading Co.,Fashion,India,$200K-1M/mo,"500-2,000/mo",16-50,Medium,WooCommerce,67.4,Mobile UX,No,0,Fixed Subscription,9,1068.0
+BRAND0049,Prime Collective,Grocery,India,$50K-200K/mo,"500-2,000/mo",6-15,Small,Shopify,72.2,Trust Issues,No,0,Fixed Subscription,10,888.0
+BRAND0050,Prime Outlet,Grocery,UAE,$10K-50K/mo,100-500/mo,1-5,Small,Shopify,48.9,Mobile UX,Yes,6,Revenue Share,4,311.0
+BRAND0051,Urban Outlet,Fashion,UAE,$10K-50K/mo,<100/mo,1-5,Small,WooCommerce,62.5,Trust Issues,No,0,Fixed Subscription,7,429.0
+BRAND0052,Oasis E-Store,Grocery,UAE,$200K-1M/mo,"2,000-10,000/mo",6-15,Small,Shopify,36.9,Payment Failures,Yes,9,Revenue Share,4,543.0
+BRAND0053,Urban Outlet,Electronics,Saudi Arabia,$50K-200K/mo,100-500/mo,16-50,Medium,Shopify,56.5,Shipping Costs,Yes,5,Fixed Subscription,4,804.0
+BRAND0054,Nile E-Store,Beauty,India,<$10K/mo,<100/mo,1-5,Small,Shopify,68.8,Payment Failures,Yes,2,Fixed Subscription,6,186.0
+BRAND0055,Urban Marketplace,Beauty,Saudi Arabia,$50K-200K/mo,100-500/mo,1-5,Small,Shopify,66.3,Trust Issues,Yes,2,Fixed Subscription,8,842.0
+BRAND0056,Bloom Collective,Fashion,Saudi Arabia,$10K-50K/mo,<100/mo,1-5,Small,Magento,80.4,Mobile UX,No,0,Fixed Subscription,10,539.0
+BRAND0057,Bloom Bazaar,Electronics,UK,$200K-1M/mo,"500-2,000/mo",51-200,Large,Shopify,47.1,Payment Failures,Yes,7,Revenue Share,4,1177.0
+BRAND0058,Summit Collective,Beauty,Saudi Arabia,$10K-50K/mo,<100/mo,1-5,Small,Shopify,52.5,Complex Forms,Yes,9,Revenue Share,2,442.0
+BRAND0059,Prime Outlet,Beauty,Saudi Arabia,$200K-1M/mo,"500-2,000/mo",16-50,Medium,Magento,55.3,Shipping Costs,No,0,Fixed Subscription,8,905.0
+BRAND0060,Summit Retail Group,Sports,Egypt,$1M-5M/mo,"10,000+/mo",200+,Large,Shopify,57.9,Mobile UX,No,0,Fixed Subscription,6,2137.0
+BRAND0061,Urban Collective,Home & Kitchen,Saudi Arabia,$10K-50K/mo,<100/mo,1-5,Small,BigCommerce,72.6,Shipping Costs,No,0,Fixed Subscription,7,531.0
+BRAND0062,Falcon Outlet,Fashion,India,$50K-200K/mo,100-500/mo,6-15,Small,WooCommerce,72.3,Payment Failures,No,0,Fixed Subscription,8,750.0
+BRAND0063,Metro E-Store,Fashion,Egypt,$50K-200K/mo,"500-2,000/mo",6-15,Small,WooCommerce,63.1,Shipping Costs,No,0,Fixed Subscription,8,999.0
+BRAND0064,Summit Outlet,Home & Kitchen,UK,$50K-200K/mo,"500-2,000/mo",6-15,Small,WooCommerce,58.3,Complex Forms,Yes,3,Revenue Share,6,608.0
+BRAND0065,Coastal E-Store,Fashion,UAE,<$10K/mo,<100/mo,1-5,Small,Shopify,54.9,Shipping Costs,No,0,Fixed Subscription,6,183.0
+BRAND0066,Urban E-Store,Beauty,UK,$10K-50K/mo,<100/mo,6-15,Small,WooCommerce,62.6,Mobile UX,No,0,Fixed Subscription,7,460.0
+BRAND0067,Metro E-Store,Toys,Saudi Arabia,$200K-1M/mo,"10,000+/mo",51-200,Large,Shopify,58.6,Shipping Costs,Yes,5,Fixed Subscription,5,1166.0
+BRAND0068,Urban Marketplace,Beauty,UAE,$50K-200K/mo,"2,000-10,000/mo",1-5,Small,BigCommerce,71.6,Mobile UX,No,0,Fixed Subscription,8,662.0
+BRAND0069,Bloom Collective,Electronics,Saudi Arabia,$1M-5M/mo,"10,000+/mo",200+,Large,Shopify,45.2,Payment Failures,Yes,9,Fixed Subscription,1,1904.0
+BRAND0070,Silk Collective,Home & Kitchen,UK,$200K-1M/mo,"10,000+/mo",16-50,Medium,WooCommerce,49.0,Shipping Costs,Yes,7,Fixed Subscription,4,1114.0
+BRAND0071,Nova Bazaar,Grocery,Saudi Arabia,$10K-50K/mo,100-500/mo,6-15,Small,WooCommerce,65.6,Mobile UX,No,0,Fixed Subscription,7,613.0
+BRAND0072,Silk Direct,Beauty,Saudi Arabia,$10K-50K/mo,<100/mo,1-5,Small,Shopify,61.7,Payment Failures,No,0,Fixed Subscription,5,379.0
+BRAND0073,Bloom E-Store,Toys,India,<$10K/mo,100-500/mo,1-5,Small,Shopify,72.6,Mobile UX,No,0,Fixed Subscription,8,226.0
+BRAND0074,Silk Collective,Electronics,UAE,$10K-50K/mo,<100/mo,1-5,Small,Magento,70.4,Payment Failures,No,0,Fixed Subscription,7,465.0
+BRAND0075,Urban Commerce Ltd,Toys,UAE,$50K-200K/mo,"2,000-10,000/mo",6-15,Small,BigCommerce,56.2,Shipping Costs,Yes,6,Fixed Subscription,6,603.0
+BRAND0076,Azure Commerce Ltd,Books,UAE,$10K-50K/mo,<100/mo,1-5,Small,Shopify,49.6,Mobile UX,Yes,6,Revenue Share,5,325.0
+BRAND0077,Golden Marketplace,Fashion,UAE,$50K-200K/mo,"2,000-10,000/mo",1-5,Small,BigCommerce,49.8,Shipping Costs,No,0,Fixed Subscription,5,582.0
+BRAND0078,Falcon Collective,Fashion,UAE,$200K-1M/mo,"500-2,000/mo",51-200,Large,Custom Built,71.3,Payment Failures,No,0,Fixed Subscription,8,1724.0
+BRAND0079,Azure Commerce Ltd,Fashion,UAE,$50K-200K/mo,100-500/mo,16-50,Medium,BigCommerce,44.8,Trust Issues,Yes,7,Fixed Subscription,3,944.0
+BRAND0080,Azure Collective,Fashion,India,$200K-1M/mo,"10,000+/mo",6-15,Small,Shopify,58.6,Trust Issues,No,0,Fixed Subscription,6,1124.0
+BRAND0081,Nova E-Store,Fashion,UAE,$50K-200K/mo,100-500/mo,6-15,Small,Magento,62.2,Mobile UX,Yes,4,Fixed Subscription,6,950.0
+BRAND0082,Coastal Retail Group,Home & Kitchen,Saudi Arabia,$50K-200K/mo,100-500/mo,16-50,Medium,Shopify,60.9,Complex Forms,No,0,Revenue Share,6,673.0
+BRAND0083,Bloom Bazaar,Fashion,Egypt,$50K-200K/mo,100-500/mo,1-5,Small,Custom Built,55.7,Complex Forms,Yes,9,Revenue Share,3,650.0
+BRAND0084,Metro & Sons,Electronics,Saudi Arabia,$10K-50K/mo,"500-2,000/mo",6-15,Small,WooCommerce,70.4,Shipping Costs,No,0,Fixed Subscription,8,667.0
+BRAND0085,Summit Commerce Ltd,Sports,India,$1M-5M/mo,"10,000+/mo",16-50,Medium,Shopify,69.5,Complex Forms,No,0,Fixed Subscription,8,1479.0
+BRAND0086,Golden Direct,Fashion,UAE,$10K-50K/mo,<100/mo,1-5,Small,Magento,49.5,Shipping Costs,Yes,3,Fixed Subscription,4,489.0
+BRAND0087,Falcon Bazaar,Sports,UAE,$50K-200K/mo,100-500/mo,16-50,Medium,Shopify,73.7,Shipping Costs,No,0,Revenue Share,9,932.0
+BRAND0088,Falcon Trading Co.,Electronics,UAE,$10K-50K/mo,"500-2,000/mo",1-5,Small,Custom Built,69.1,Mobile UX,No,0,Fixed Subscription,6,579.0
+BRAND0089,Urban Bazaar,Fashion,UAE,$1M-5M/mo,"10,000+/mo",200+,Large,Custom Built,47.0,Trust Issues,Yes,5,Fixed Subscription,5,1137.0
+BRAND0090,Nova Bazaar,Home & Kitchen,UAE,$10K-50K/mo,<100/mo,6-15,Small,Magento,57.8,Trust Issues,Yes,4,Fixed Subscription,6,421.0
+BRAND0091,Gulf Bazaar,Beauty,UAE,$10K-50K/mo,<100/mo,6-15,Small,Shopify,31.5,Payment Failures,Yes,9,Fixed Subscription,1,422.0
+BRAND0092,Nile Collective,Sports,UAE,$200K-1M/mo,"500-2,000/mo",51-200,Large,Magento,43.8,Payment Failures,Yes,10,Fixed Subscription,3,1153.0
+BRAND0093,Coastal Outlet,Home & Kitchen,UAE,$50K-200K/mo,"500-2,000/mo",1-5,Small,Shopify,58.8,Payment Failures,No,0,Fixed Subscription,6,582.0
+BRAND0094,Nova Bazaar,Sports,Saudi Arabia,$10K-50K/mo,"500-2,000/mo",1-5,Small,Shopify,56.2,Payment Failures,No,0,Fixed Subscription,6,797.0
+BRAND0095,Golden Marketplace,Electronics,UAE,$200K-1M/mo,"2,000-10,000/mo",6-15,Small,BigCommerce,53.3,Shipping Costs,No,0,Revenue Share,6,1279.0
+BRAND0096,Urban E-Store,Fashion,Saudi Arabia,$50K-200K/mo,"2,000-10,000/mo",1-5,Small,Shopify,67.1,Shipping Costs,Yes,4,Fixed Subscription,5,880.0
+BRAND0097,Bloom Outlet,Home & Kitchen,Saudi Arabia,$10K-50K/mo,"500-2,000/mo",1-5,Small,Shopify,44.4,Trust Issues,Yes,8,Fixed Subscription,3,492.0
+BRAND0098,Silk & Sons,Sports,India,$10K-50K/mo,"500-2,000/mo",1-5,Small,Custom Built,61.7,Mobile UX,Yes,8,Revenue Share,3,453.0
+BRAND0099,Palm Outlet,Toys,UAE,$200K-1M/mo,"10,000+/mo",51-200,Large,Shopify,58.2,Mobile UX,No,0,Fixed Subscription,6,1080.0
+BRAND0100,Prime Commerce Ltd,Grocery,Egypt,$200K-1M/mo,"10,000+/mo",51-200,Large,Shopify,48.8,Mobile UX,No,0,Fixed Subscription,5,1275.0
+BRAND0101,Urban Trading Co.,Electronics,India,$50K-200K/mo,"2,000-10,000/mo",16-50,Medium,Custom Built,48.5,Shipping Costs,Yes,3,Fixed Subscription,4,965.0
+BRAND0102,Bloom Commerce Ltd,Home & Kitchen,UAE,$50K-200K/mo,"2,000-10,000/mo",6-15,Small,Shopify,75.4,Trust Issues,No,0,Fixed Subscription,8,721.0
+BRAND0103,Summit Collective,Electronics,Egypt,$10K-50K/mo,100-500/mo,6-15,Small,Magento,64.3,Trust Issues,No,0,Revenue Share,7,544.0
+BRAND0104,Desert E-Store,Books,UK,$10K-50K/mo,<100/mo,1-5,Small,Custom Built,62.6,Payment Failures,No,0,Fixed Subscription,7,411.0
+BRAND0105,Urban Marketplace,Sports,UAE,$200K-1M/mo,"500-2,000/mo",51-200,Large,Custom Built,63.8,Complex Forms,No,0,Fixed Subscription,8,841.0
+BRAND0106,Urban Outlet,Grocery,UAE,<$10K/mo,<100/mo,1-5,Small,Magento,71.0,Mobile UX,No,0,Fixed Subscription,6,218.0
+BRAND0107,Urban Trading Co.,Home & Kitchen,Egypt,$1M-5M/mo,"10,000+/mo",16-50,Medium,Shopify,72.9,Mobile UX,No,0,Fixed Subscription,7,1318.0
+BRAND0108,Desert Retail Group,Home & Kitchen,India,$50K-200K/mo,"500-2,000/mo",6-15,Small,Shopify,77.1,Payment Failures,No,0,Revenue Share,7,1110.0
+BRAND0109,Summit & Sons,Fashion,UAE,$50K-200K/mo,"500-2,000/mo",1-5,Small,BigCommerce,64.1,Trust Issues,No,0,Fixed Subscription,6,803.0
+BRAND0110,Falcon Marketplace,Books,UAE,$10K-50K/mo,"500-2,000/mo",1-5,Small,BigCommerce,38.8,Mobile UX,Yes,8,Fixed Subscription,2,370.0
+BRAND0111,Palm Trading Co.,Beauty,Saudi Arabia,<$10K/mo,<100/mo,1-5,Small,WooCommerce,43.9,Payment Failures,Yes,9,Revenue Share,1,135.0
+BRAND0112,Urban E-Store,Sports,Saudi Arabia,$50K-200K/mo,"2,000-10,000/mo",6-15,Small,Shopify,47.8,Complex Forms,Yes,9,Fixed Subscription,2,628.0
+BRAND0113,Golden Retail Group,Electronics,India,$10K-50K/mo,<100/mo,1-5,Small,Shopify,59.3,Mobile UX,No,0,Revenue Share,6,430.0
+BRAND0114,Metro Direct,Books,Saudi Arabia,$10K-50K/mo,<100/mo,6-15,Small,Shopify,53.4,Complex Forms,Yes,2,Revenue Share,5,394.0
+BRAND0115,Palm & Sons,Electronics,Saudi Arabia,<$10K/mo,<100/mo,1-5,Small,Magento,69.8,Payment Failures,No,0,Revenue Share,7,188.0
+BRAND0116,Palm Collective,Fashion,India,$50K-200K/mo,"2,000-10,000/mo",16-50,Medium,WooCommerce,63.6,Trust Issues,No,0,Fixed Subscription,6,1219.0
+BRAND0117,Gulf Collective,Books,UAE,$200K-1M/mo,"2,000-10,000/mo",6-15,Small,Custom Built,65.8,Mobile UX,No,0,Fixed Subscription,7,846.0
+BRAND0118,Nova Outlet,Fashion,UAE,$1M-5M/mo,"10,000+/mo",51-200,Large,Magento,36.6,Trust Issues,Yes,9,Revenue Share,2,1054.0
+BRAND0119,Nova Trading Co.,Electronics,India,$50K-200K/mo,100-500/mo,6-15,Small,Shopify,63.7,Payment Failures,No,0,Fixed Subscription,7,685.0
+BRAND0120,Silk & Sons,Toys,Egypt,$10K-50K/mo,100-500/mo,1-5,Small,WooCommerce,59.6,Complex Forms,No,0,Fixed Subscription,5,567.0
+BRAND0121,Oasis Marketplace,Toys,Saudi Arabia,$200K-1M/mo,"2,000-10,000/mo",6-15,Small,WooCommerce,72.6,Trust Issues,No,0,Revenue Share,8,779.0
+BRAND0122,Gulf Retail Group,Beauty,Saudi Arabia,$10K-50K/mo,<100/mo,1-5,Small,WooCommerce,53.3,Trust Issues,Yes,10,Revenue Share,1,203.0
+BRAND0123,Coastal & Sons,Beauty,UAE,$50K-200K/mo,100-500/mo,1-5,Small,Magento,52.2,Shipping Costs,No,0,Fixed Subscription,5,591.0
+BRAND0124,Nova Trading Co.,Grocery,Saudi Arabia,$10K-50K/mo,<100/mo,6-15,Small,BigCommerce,47.1,Payment Failures,Yes,5,Fixed Subscription,4,522.0
+BRAND0125,Prime & Sons,Electronics,Saudi Arabia,$10K-50K/mo,100-500/mo,1-5,Small,BigCommerce,41.8,Mobile UX,Yes,6,Fixed Subscription,3,526.0
+BRAND0126,Palm E-Store,Electronics,UAE,$50K-200K/mo,"2,000-10,000/mo",16-50,Medium,Shopify,58.8,Payment Failures,No,0,Revenue Share,9,817.0
+BRAND0127,Gulf Commerce Ltd,Home & Kitchen,UAE,$50K-200K/mo,"500-2,000/mo",1-5,Small,Shopify,66.3,Complex Forms,No,0,Revenue Share,7,624.0
+BRAND0128,Nile Direct,Home & Kitchen,Saudi Arabia,$50K-200K/mo,"2,000-10,000/mo",16-50,Medium,Magento,52.4,Payment Failures,No,0,Fixed Subscription,5,1146.0
+BRAND0129,Nile E-Store,Sports,UAE,$200K-1M/mo,"2,000-10,000/mo",16-50,Medium,Shopify,56.6,Complex Forms,No,0,Fixed Subscription,6,809.0
+BRAND0130,Gulf Collective,Sports,Saudi Arabia,$200K-1M/mo,"2,000-10,000/mo",51-200,Large,Shopify,54.5,Trust Issues,No,0,Revenue Share,4,1079.0
+BRAND0131,Gulf Bazaar,Fashion,UAE,$10K-50K/mo,<100/mo,1-5,Small,Shopify,68.7,Trust Issues,No,0,Fixed Subscription,7,454.0
+BRAND0132,Urban Outlet,Grocery,Saudi Arabia,$200K-1M/mo,"10,000+/mo",16-50,Medium,Magento,49.2,Payment Failures,Yes,7,Fixed Subscription,3,1266.0
+BRAND0133,Palm Collective,Fashion,UAE,$200K-1M/mo,"2,000-10,000/mo",51-200,Large,Shopify,56.7,Shipping Costs,No,0,Revenue Share,7,1060.0
+BRAND0134,Desert Outlet,Beauty,Egypt,$50K-200K/mo,"500-2,000/mo",1-5,Small,Magento,46.4,Payment Failures,Yes,10,Fixed Subscription,2,685.0
+BRAND0135,Urban Bazaar,Grocery,India,$200K-1M/mo,"500-2,000/mo",6-15,Small,Custom Built,61.1,Shipping Costs,No,0,Fixed Subscription,7,638.0
+BRAND0136,Prime Retail Group,Books,India,<$10K/mo,<100/mo,1-5,Small,Shopify,64.8,Mobile UX,No,0,Fixed Subscription,6,212.0
+BRAND0137,Falcon Direct,Electronics,Egypt,$10K-50K/mo,"500-2,000/mo",1-5,Small,Shopify,58.4,Complex Forms,Yes,10,Fixed Subscription,5,566.0
+BRAND0138,Nile Collective,Fashion,Saudi Arabia,$200K-1M/mo,"2,000-10,000/mo",6-15,Small,Shopify,76.2,Trust Issues,No,0,Revenue Share,8,866.0
+BRAND0139,Summit Direct,Fashion,UAE,$1M-5M/mo,"10,000+/mo",51-200,Large,BigCommerce,52.1,Complex Forms,No,0,Fixed Subscription,8,1471.0
+BRAND0140,Palm Bazaar,Home & Kitchen,Saudi Arabia,$50K-200K/mo,"500-2,000/mo",1-5,Small,Shopify,73.6,Payment Failures,No,0,Revenue Share,9,749.0
+BRAND0141,Gulf Trading Co.,Beauty,India,$50K-200K/mo,"2,000-10,000/mo",6-15,Small,Shopify,72.0,Complex Forms,No,0,Fixed Subscription,8,839.0
+BRAND0142,Desert Trading Co.,Fashion,India,$10K-50K/mo,<100/mo,1-5,Small,Shopify,57.8,Mobile UX,No,0,Fixed Subscription,6,423.0
+BRAND0143,Palm Marketplace,Fashion,Saudi Arabia,>$5M/mo,"10,000+/mo",200+,Large,Magento,67.6,Trust Issues,No,0,Fixed Subscription,8,1493.0
+BRAND0144,Metro Collective,Home & Kitchen,UAE,$50K-200K/mo,"2,000-10,000/mo",16-50,Medium,WooCommerce,54.3,Payment Failures,Yes,10,Fixed Subscription,1,902.0
+BRAND0145,Prime Bazaar,Fashion,UAE,<$10K/mo,<100/mo,1-5,Small,Magento,58.0,Mobile UX,No,0,Fixed Subscription,5,246.0
+BRAND0146,Nile E-Store,Sports,Saudi Arabia,$10K-50K/mo,<100/mo,1-5,Small,Custom Built,59.7,Trust Issues,No,0,Fixed Subscription,7,427.0
+BRAND0147,Palm E-Store,Home & Kitchen,India,$200K-1M/mo,"10,000+/mo",51-200,Large,Shopify,61.8,Mobile UX,Yes,4,Fixed Subscription,6,1161.0
+BRAND0148,Gulf Outlet,Fashion,India,<$10K/mo,<100/mo,1-5,Small,BigCommerce,58.2,Trust Issues,Yes,5,Fixed Subscription,3,230.0
+BRAND0149,Coastal Outlet,Fashion,Saudi Arabia,$50K-200K/mo,"500-2,000/mo",1-5,Small,Shopify,71.4,Trust Issues,No,0,Revenue Share,7,780.0
+BRAND0150,Urban Outlet,Toys,UK,<$10K/mo,<100/mo,1-5,Small,BigCommerce,69.7,Payment Failures,No,0,Fixed Subscription,9,174.0
+BRAND0151,Gulf Trading Co.,Electronics,India,$200K-1M/mo,"2,000-10,000/mo",6-15,Small,Magento,68.6,Payment Failures,No,0,Revenue Share,9,1248.0
+BRAND0152,Oasis Commerce Ltd,Electronics,UAE,$50K-200K/mo,"500-2,000/mo",6-15,Small,BigCommerce,54.9,Mobile UX,No,0,Fixed Subscription,6,746.0
+BRAND0153,Coastal Outlet,Sports,UAE,$200K-1M/mo,"2,000-10,000/mo",16-50,Medium,Shopify,68.0,Payment Failures,Yes,2,Fixed Subscription,8,1254.0
+BRAND0154,Gulf E-Store,Toys,UAE,$50K-200K/mo,100-500/mo,1-5,Small,Shopify,58.8,Mobile UX,Yes,8,Revenue Share,4,742.0
+BRAND0155,Palm Bazaar,Toys,UAE,$1M-5M/mo,"10,000+/mo",200+,Large,Shopify,59.2,Trust Issues,No,0,Fixed Subscription,5,1222.0
+BRAND0156,Nile Bazaar,Home & Kitchen,UAE,$1M-5M/mo,"10,000+/mo",16-50,Medium,Shopify,57.1,Payment Failures,Yes,3,Fixed Subscription,5,1213.0
+BRAND0157,Azure Retail Group,Electronics,UAE,<$10K/mo,<100/mo,1-5,Small,Shopify,43.8,Payment Failures,Yes,5,Revenue Share,5,118.0
+BRAND0158,Palm Retail Group,Fashion,UAE,$50K-200K/mo,100-500/mo,6-15,Small,Shopify,58.6,Payment Failures,Yes,5,Revenue Share,5,597.0
+BRAND0159,Desert & Sons,Home & Kitchen,UAE,$1M-5M/mo,"10,000+/mo",51-200,Large,Shopify,67.1,Mobile UX,No,0,Fixed Subscription,7,2042.0
+BRAND0160,Nile Bazaar,Beauty,Egypt,$50K-200K/mo,"500-2,000/mo",6-15,Small,WooCommerce,65.0,Complex Forms,No,0,Fixed Subscription,7,702.0
+BRAND0161,Gulf Trading Co.,Grocery,UAE,$1M-5M/mo,"10,000+/mo",51-200,Large,BigCommerce,60.5,Complex Forms,Yes,5,Revenue Share,8,1282.0
+BRAND0162,Gulf Trading Co.,Books,Saudi Arabia,$10K-50K/mo,"500-2,000/mo",6-15,Small,WooCommerce,62.8,Complex Forms,No,0,Fixed Subscription,8,647.0
+BRAND0163,Golden Marketplace,Fashion,Saudi Arabia,$200K-1M/mo,"10,000+/mo",51-200,Large,Shopify,67.0,Payment Failures,No,0,Revenue Share,10,1002.0
+BRAND0164,Palm Commerce Ltd,Grocery,UK,$1M-5M/mo,"2,000-10,000/mo",200+,Large,WooCommerce,52.8,Trust Issues,No,0,Revenue Share,6,1334.0
+BRAND0165,Oasis Outlet,Fashion,UAE,$10K-50K/mo,<100/mo,1-5,Small,Shopify,55.8,Payment Failures,Yes,5,Revenue Share,5,365.0
+BRAND0166,Falcon E-Store,Grocery,Saudi Arabia,$50K-200K/mo,"2,000-10,000/mo",6-15,Small,Custom Built,64.1,Mobile UX,No,0,Fixed Subscription,5,821.0
+BRAND0167,Urban Trading Co.,Fashion,UK,$1M-5M/mo,"10,000+/mo",51-200,Large,Shopify,64.3,Complex Forms,No,0,Fixed Subscription,9,1462.0
+BRAND0168,Palm E-Store,Fashion,Egypt,$50K-200K/mo,100-500/mo,16-50,Medium,Magento,61.0,Complex Forms,No,0,Revenue Share,5,712.0
+BRAND0169,Coastal Collective,Fashion,Egypt,$50K-200K/mo,100-500/mo,6-15,Small,Custom Built,64.4,Trust Issues,No,0,Fixed Subscription,7,581.0
+BRAND0170,Coastal & Sons,Home & Kitchen,UAE,$200K-1M/mo,"2,000-10,000/mo",6-15,Small,BigCommerce,58.9,Trust Issues,Yes,6,Revenue Share,4,1047.0
+BRAND0171,Coastal E-Store,Home & Kitchen,UAE,$50K-200K/mo,100-500/mo,1-5,Small,Magento,63.5,Mobile UX,No,0,Fixed Subscription,6,919.0
+BRAND0172,Coastal Outlet,Beauty,India,$200K-1M/mo,"2,000-10,000/mo",16-50,Medium,BigCommerce,51.1,Trust Issues,No,0,Fixed Subscription,5,1122.0
+BRAND0173,Nova Retail Group,Toys,UK,$50K-200K/mo,"500-2,000/mo",1-5,Small,Custom Built,65.6,Payment Failures,Yes,7,Revenue Share,5,698.0
+BRAND0174,Metro Trading Co.,Electronics,India,$10K-50K/mo,100-500/mo,1-5,Small,WooCommerce,78.1,Shipping Costs,No,0,Revenue Share,7,519.0
+BRAND0175,Summit Trading Co.,Electronics,India,$50K-200K/mo,"2,000-10,000/mo",16-50,Medium,WooCommerce,33.9,Payment Failures,Yes,9,Revenue Share,1,655.0
+BRAND0176,Metro E-Store,Sports,UAE,$1M-5M/mo,"10,000+/mo",51-200,Large,WooCommerce,68.0,Payment Failures,No,0,Revenue Share,9,1952.0
+BRAND0177,Gulf E-Store,Electronics,Egypt,$10K-50K/mo,"500-2,000/mo",1-5,Small,WooCommerce,63.0,Mobile UX,No,0,Fixed Subscription,5,554.0
+BRAND0178,Palm Trading Co.,Toys,UAE,$200K-1M/mo,"2,000-10,000/mo",51-200,Large,WooCommerce,64.6,Shipping Costs,No,0,Fixed Subscription,7,1667.0
+BRAND0179,Palm Trading Co.,Fashion,Saudi Arabia,$50K-200K/mo,"500-2,000/mo",1-5,Small,WooCommerce,49.6,Mobile UX,Yes,9,Revenue Share,4,551.0
+BRAND0180,Summit Marketplace,Toys,Saudi Arabia,$200K-1M/mo,"10,000+/mo",6-15,Small,Shopify,63.6,Trust Issues,No,0,Fixed Subscription,7,1547.0
+BRAND0181,Coastal E-Store,Fashion,Saudi Arabia,$200K-1M/mo,"500-2,000/mo",16-50,Medium,Shopify,57.7,Trust Issues,No,0,Fixed Subscription,6,1242.0
+BRAND0182,Summit Bazaar,Books,UAE,$50K-200K/mo,"500-2,000/mo",1-5,Small,Shopify,61.5,Payment Failures,No,0,Fixed Subscription,6,795.0
+BRAND0183,Metro Outlet,Beauty,UAE,$10K-50K/mo,<100/mo,6-15,Small,Shopify,58.2,Payment Failures,No,0,Fixed Subscription,7,523.0
+BRAND0184,Azure Trading Co.,Toys,India,$1M-5M/mo,"2,000-10,000/mo",200+,Large,Shopify,54.3,Mobile UX,No,0,Revenue Share,7,1373.0
+BRAND0185,Golden Marketplace,Fashion,UAE,$200K-1M/mo,"2,000-10,000/mo",16-50,Medium,WooCommerce,45.9,Complex Forms,Yes,8,Fixed Subscription,3,1371.0
+BRAND0186,Silk E-Store,Beauty,India,$50K-200K/mo,"500-2,000/mo",16-50,Medium,Shopify,58.3,Mobile UX,No,0,Fixed Subscription,7,914.0
+BRAND0187,Summit Trading Co.,Toys,UAE,$50K-200K/mo,100-500/mo,16-50,Medium,BigCommerce,69.5,Shipping Costs,No,0,Fixed Subscription,6,608.0
+BRAND0188,Gulf Marketplace,Beauty,Saudi Arabia,$10K-50K/mo,<100/mo,1-5,Small,Shopify,59.1,Payment Failures,Yes,9,Fixed Subscription,5,338.0
+BRAND0189,Palm Collective,Beauty,Saudi Arabia,$200K-1M/mo,"10,000+/mo",51-200,Large,Shopify,57.9,Trust Issues,No,0,Fixed Subscription,7,1238.0
+BRAND0190,Urban E-Store,Home & Kitchen,UAE,$1M-5M/mo,"10,000+/mo",200+,Large,Magento,62.9,Shipping Costs,No,0,Fixed Subscription,7,1664.0
+BRAND0191,Palm Retail Group,Grocery,Saudi Arabia,$10K-50K/mo,100-500/mo,6-15,Small,WooCommerce,58.5,Payment Failures,Yes,5,Revenue Share,4,492.0
+BRAND0192,Prime Direct,Beauty,UAE,$10K-50K/mo,"500-2,000/mo",1-5,Small,Shopify,70.8,Mobile UX,No,0,Fixed Subscription,6,690.0
+BRAND0193,Silk & Sons,Beauty,UAE,$50K-200K/mo,"2,000-10,000/mo",6-15,Small,BigCommerce,66.1,Trust Issues,No,0,Fixed Subscription,8,617.0
+BRAND0194,Bloom E-Store,Books,UK,$10K-50K/mo,"500-2,000/mo",1-5,Small,BigCommerce,72.9,Payment Failures,No,0,Fixed Subscription,9,574.0
+BRAND0195,Oasis Outlet,Fashion,Saudi Arabia,$50K-200K/mo,"2,000-10,000/mo",6-15,Small,Shopify,58.4,Trust Issues,Yes,5,Revenue Share,4,574.0
+BRAND0196,Desert & Sons,Electronics,Egypt,$50K-200K/mo,100-500/mo,1-5,Small,Shopify,37.3,Mobile UX,Yes,9,Fixed Subscription,2,690.0
+BRAND0197,Falcon Retail Group,Toys,UAE,$10K-50K/mo,100-500/mo,1-5,Small,Custom Built,74.0,Payment Failures,No,0,Revenue Share,5,440.0
+BRAND0198,Silk Direct,Books,India,$1M-5M/mo,"10,000+/mo",51-200,Large,WooCommerce,69.6,Mobile UX,No,0,Fixed Subscription,7,1619.0
+BRAND0199,Desert Direct,Grocery,Egypt,$10K-50K/mo,<100/mo,1-5,Small,WooCommerce,60.9,Payment Failures,No,0,Revenue Share,6,307.0
+BRAND0200,Urban Outlet,Beauty,India,$50K-200K/mo,100-500/mo,6-15,Small,BigCommerce,65.8,Mobile UX,No,0,Fixed Subscription,6,964.0
+BRAND0201,Urban Bazaar,Electronics,Saudi Arabia,$10K-50K/mo,<100/mo,1-5,Small,Shopify,61.5,Shipping Costs,Yes,5,Revenue Share,4,434.0
+BRAND0202,Nova & Sons,Fashion,Saudi Arabia,$200K-1M/mo,"10,000+/mo",51-200,Large,WooCommerce,60.8,Complex Forms,No,0,Fixed Subscription,6,1431.0
+BRAND0203,Palm Collective,Grocery,Saudi Arabia,$50K-200K/mo,"2,000-10,000/mo",16-50,Medium,Shopify,59.4,Complex Forms,Yes,6,Revenue Share,5,869.0
+BRAND0204,Azure Direct,Electronics,UK,$50K-200K/mo,"500-2,000/mo",6-15,Small,BigCommerce,84.4,Mobile UX,No,0,Fixed Subscription,9,965.0
+BRAND0205,Falcon Direct,Beauty,Egypt,$1M-5M/mo,"10,000+/mo",16-50,Medium,WooCommerce,57.7,Trust Issues,No,0,Fixed Subscription,4,1215.0
+BRAND0206,Nile Retail Group,Fashion,UK,$10K-50K/mo,"500-2,000/mo",1-5,Small,Magento,56.0,Shipping Costs,No,0,Fixed Subscription,4,601.0
+BRAND0207,Prime Outlet,Toys,UAE,$50K-200K/mo,100-500/mo,16-50,Medium,Shopify,66.4,Payment Failures,No,0,Fixed Subscription,6,1154.0
+BRAND0208,Azure Direct,Toys,India,$10K-50K/mo,100-500/mo,6-15,Small,Shopify,60.3,Mobile UX,Yes,5,Revenue Share,5,608.0
+BRAND0209,Falcon Bazaar,Home & Kitchen,UK,$50K-200K/mo,"2,000-10,000/mo",1-5,Small,WooCommerce,65.2,Shipping Costs,No,0,Fixed Subscription,4,688.0
+BRAND0210,Gulf Commerce Ltd,Beauty,UAE,$200K-1M/mo,"10,000+/mo",6-15,Small,Magento,57.3,Mobile UX,Yes,9,Fixed Subscription,4,1173.0
+BRAND0211,Urban Outlet,Electronics,UAE,$10K-50K/mo,<100/mo,1-5,Small,WooCommerce,56.3,Payment Failures,No,0,Fixed Subscription,5,322.0
+BRAND0212,Palm E-Store,Sports,India,$10K-50K/mo,<100/mo,1-5,Small,Shopify,61.5,Trust Issues,Yes,5,Revenue Share,6,399.0
+BRAND0213,Falcon Retail Group,Home & Kitchen,India,$50K-200K/mo,"2,000-10,000/mo",1-5,Small,BigCommerce,62.2,Trust Issues,No,0,Revenue Share,6,777.0
+BRAND0214,Desert Collective,Fashion,Egypt,<$10K/mo,<100/mo,1-5,Small,Shopify,80.8,Complex Forms,No,0,Revenue Share,8,157.0
+BRAND0215,Silk & Sons,Books,UAE,$200K-1M/mo,"2,000-10,000/mo",16-50,Medium,Custom Built,57.9,Trust Issues,Yes,10,Revenue Share,4,873.0
+BRAND0216,Nile Bazaar,Sports,Egypt,$50K-200K/mo,100-500/mo,1-5,Small,Shopify,60.9,Payment Failures,No,0,Fixed Subscription,4,630.0
+BRAND0217,Bloom & Sons,Toys,UAE,$10K-50K/mo,<100/mo,6-15,Small,Magento,61.1,Shipping Costs,No,0,Fixed Subscription,7,482.0
+BRAND0218,Bloom Direct,Home & Kitchen,UAE,$50K-200K/mo,"2,000-10,000/mo",6-15,Small,Shopify,72.4,Trust Issues,No,0,Revenue Share,8,670.0
+BRAND0219,Coastal Trading Co.,Beauty,UAE,$1M-5M/mo,"2,000-10,000/mo",16-50,Medium,Custom Built,41.1,Payment Failures,Yes,9,Fixed Subscription,3,1375.0
+BRAND0220,Gulf Direct,Grocery,Egypt,<$10K/mo,100-500/mo,1-5,Small,WooCommerce,55.6,Shipping Costs,Yes,5,Fixed Subscription,8,282.0
