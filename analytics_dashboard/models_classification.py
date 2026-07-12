@@ -63,6 +63,9 @@ def _build_models(y: pd.Series) -> dict:
         "Gradient Boosting (XGBoost)": xgb.XGBClassifier(
             n_estimators=200, max_depth=4, learning_rate=0.08,
             scale_pos_weight=pos_weight, eval_metric="logloss", random_state=42,
+            n_jobs=1,  # XGBoost's default n_jobs (all cores) misdetects cgroup-limited
+                       # containers on Streamlit Cloud, over-subscribes its OpenMP thread
+                       # pool, and segfaults on startup -- pinning to 1 avoids that.
         ),
     }
 
