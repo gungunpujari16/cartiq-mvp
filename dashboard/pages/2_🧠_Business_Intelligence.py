@@ -48,12 +48,29 @@ if not DATA_PATH.exists():
 df = pd.read_csv(DATA_PATH)
 st.caption(f"{len(df)} simulated brand survey responses loaded.")
 
+
+@st.cache_data(show_spinner="Training models...")
+def run_all_models(_df: pd.DataFrame) -> dict:
+    # Streamlit executes every tab's body on every rerun (not just the visible
+    # tab), so without this cache all 5 models -- including Ridge, which the
+    # Brand Segments tab also depends on -- would retrain on every interaction
+    # anywhere on the page. Cached once per data load instead.
+    rf = bi.run_random_forest(_df)
+    ridge = bi.run_ridge(_df)
+    km = bi.run_kmeans_brands(_df, ridge["predicted_wtp"])
+    ap = bi.run_apriori(_df)
+    dt = bi.run_decision_tree(_df)
+    return {"rf": rf, "ridge": ridge, "km": km, "ap": ap, "dt": dt}
+
+
+results = run_all_models(df)
+
 sections = st.tabs(["Adoption Prediction", "Willingness to Pay", "Brand Segments", "Association Rules", "Company Size"])
 
 # ── 1. Random Forest -- adoption likelihood ─────────────────────────────
 with sections[0]:
     st.subheader("Will a brand subscribe to CartIQ?")
-    rf = bi.run_random_forest(df)
+    rf = results["rf"]
     c1, c2, c3 = st.columns(3)
     c1.metric("Model accuracy (held-out test)", f"{rf['accuracy']:.1%}")
     c2.metric("AUC-ROC", f"{rf['auc']:.3f}")
@@ -82,7 +99,7 @@ with sections[0]:
 # ── 2. Ridge Regression -- willingness to pay ────────────────────────────
 with sections[1]:
     st.subheader("How much would they pay?")
-    ridge = bi.run_ridge(df)
+    ridge = results["ridge"]
     c1, c2, c3 = st.columns(3)
     c1.metric("R² (test set)", f"{ridge['r2']:.3f}")
     c2.metric("RMSE", f"${ridge['rmse_usd']:.0f}/mo")
@@ -114,8 +131,7 @@ with sections[1]:
 # ── 3. K-Means -- brand segments ─────────────────────────────────────────
 with sections[2]:
     st.subheader("Which brands to target first?")
-    ridge_for_km = bi.run_ridge(df)
-    km = bi.run_kmeans_brands(df, ridge_for_km["predicted_wtp"])
+    km = results["km"]
     st.dataframe(
         km["profiles"].rename(columns={"segment": "Segment", "brands": "Brands", "avg_predicted_wtp": "Avg Predicted WTP ($)"}),
         use_container_width=True, hide_index=True,
@@ -143,7 +159,7 @@ with sections[2]:
 # ── 4. Apriori -- association rules ──────────────────────────────────────
 with sections[3]:
     st.subheader("What drives high willingness-to-pay?")
-    ap = bi.run_apriori(df)
+    ap = results["ap"]
     if not ap["rules"].empty:
         st.dataframe(
             ap["rules"].rename(columns={"antecedents": "If a brand has...", "consequents": "...then",
@@ -172,7 +188,7 @@ with sections[3]:
 # ── 5. Decision Tree -- company size ─────────────────────────────────────
 with sections[4]:
     st.subheader("Predict company size (when it wasn't asked directly)")
-    dt = bi.run_decision_tree(df)
+    dt = results["dt"]
     st.metric("Accuracy (3-class: Small / Medium / Large)", f"{dt['accuracy']:.1%}")
     st.code(dt["tree_text"], language="text")
 
