@@ -78,10 +78,26 @@ check out. Watch the score badge (top-right) and any discount toast appear live.
 cd dashboard
 python -m venv venv
 venv\Scripts\pip install -r requirements.txt
+venv\Scripts\python generate_brand_survey.py   # writes data/brand_survey.csv (simulated B2B survey data)
 venv\Scripts\python -m streamlit run app.py
 ```
 
 It auto-fills the API key from `backend/demo_api_key.txt` if present. Open `http://localhost:8501`.
+This is a two-page app (see `dashboard/pages/`):
+
+- **🛍️ Shopper Insights** -- the actual product dashboard (PRD Feature 4): what a brand sees about
+  its own shoppers. Live XGBoost purchase-intent scoring, K-Means behavioral segments, funnel/channel
+  diagnostics, discount A/B lift, plus an interpretable Decision Tree comparison and Apriori
+  association rules for teaching purposes. Every chart is followed by a data-driven insight box and,
+  where a model produced it, a methodology box explaining which algorithm, why it was chosen over
+  alternatives, and what it calculates (phrased to match BRD Section 4).
+- **🧠 Business Intelligence** -- CartIQ's *own* go-to-market analytics (BRD Section 4/7): will
+  another brand buy CartIQ, and how much would they pay. Random Forest (adoption), Ridge Regression
+  (willingness-to-pay), K-Means (brand segments: Premium/Growth/Budget), Apriori (what drives high
+  WTP), Decision Tree (company-size inference). Runs entirely on a **simulated** B2B survey dataset
+  (`dashboard/generate_brand_survey.py`, N=220) -- no real survey has been run yet, and the page says
+  so. This is a different dataset and audience than Shopper Insights; see `dashboard/bi_models.py`
+  for the model code and `dashboard/app.py` for the plain-English explanation of the split.
 
 ### Tests
 
